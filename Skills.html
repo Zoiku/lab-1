@@ -4,7 +4,7 @@
 
         <title>Workplace Skills</title>
         
-        <style>
+        <style type="text/css">
             #Header{
                 background-color: darkred;
                 color: white;
@@ -12,14 +12,33 @@
                 padding: 6px;
             }
 
-            #Navigation{
-                line-height: 40px;
-                background-color: darkgrey;
-                height: 500px;
-                width: 150px;
-                float:left;
-                padding: 5px;
-            }
+            .Navigation ul {
+				list-style: none;
+				background: darkred;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+
+			.Navigation li {
+				 display:inline-block;
+			}
+
+			.Navigation a {
+				text-decoration: none;
+				color: #fff;
+				width: 100px;
+				display: block;
+				padding: 15px;
+				font-size: 17px;
+				font-family: Helvetica;
+				transition: 0.4s;
+			}
+
+			.Navigation a:hover {
+				background: #000;
+				transition: 0.4s;
+			}
 
             #Content{
                 width: 350px;
@@ -42,7 +61,7 @@
 			<h1>Workplace Skills</h1>
         </div>
         
-        <div id="Navigation">
+        <div class="Navigation">
             <ul>
                 <li> <a href="index.html" > Homepage </a> </li> 
                 <li> <a href="Skills.html"> Skills </a> </li> 
