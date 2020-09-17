@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body header h1{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    padding: 35px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    background-color:rgb(227, 194, 228);
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(187, 92, 190);
+}
+
+nav li{
+    font-style: none;
+    padding: 20px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    font-size: 22px;
+    font-family: 'Syne', sans-serif;
+}
+
+nav li:hover{
+    background: rgb(211, 210, 210);
+    transition: 1s;
+}
+
+section{
+    display: flex;
+}
+
+.content{
+    width: 50%;
+    border: 5px solid white ;
+}
+
+.content h2{
+    font-size: 35px;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+}
+
+.content p{
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.interests ol{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.interests li{
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid white;
+}
+
+.content li{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.content ol{
+    padding: 30px;
+}
+
+.Projects div{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Links ol{
+    padding: 30px;
+}
+
+.Links li{
+    padding: 20px;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+    font-size: 20px;
+}
